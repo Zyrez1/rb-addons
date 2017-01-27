@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.rbrepo"
+		name="RB Backup Add-ons"
+		version="8.1.0"
+		provider-name="Raybuntu">
+	<extension point="xbmc.addon.repository"
+		name="LibreELEC Add-ons">
+		<info>https://raw.githubusercontent.com/Raybuntu/rb-addons/master/addons/8.1/addons.xml.gz</info>
+		<checksum>https://raw.githubusercontent.com/Raybuntu/rb-addons/master/addons/8.1/addons.xml.gz.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Raybuntu/rb-addons/master/addons/8.1/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>RB Backup Add-ons for WeTek Hub, WeTek Play 2 and Odroid C2</summary>
+		<description>The RB Backup add-on repository contains Kodi PVR Clients and Servers, Screensavers, Visualisations, and more. Add-ons in this repository are maintained and supported by LibreELEC staff and YOU the community. If you find a broken or non-working add-on please report it via the forums, or help by submitting fixes via GitHub.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
